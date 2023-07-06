@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .dropdown-btn:hover + .dropdown-menu {
+    display: block;
+  }
+  .dropdown{
+    display: none;
+  }
+  
+.logofix{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    transform: translate(100px);
+}
+.linkfix{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    transform: translate(-50px);
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.rectanglediv{
+    margin-top: 10px;
+    z-index: -1;
+    align-items: center;
+position: relative;
+    
+}
+.rectangle{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.h1header{
+    font-size: 50px;
+    color: #f8eded;
+}
+.h1border{
+    border-bottom: solid #f8eded ;
+    border-width: 1px;
+}
+
+.headertext{
+    width: 500px;
+    color: #f8eded;
+}
+.h1header2{
+    font-size: 30px;
+    color: #f8eded;
+}
+.btn {
+	background-color:#fa783c;
+	border-radius:27px;
+	border:2px solid #f8eded;
+	display:inline-block;
+	cursor:pointer;
+	color:#f8eded;
+	font-family:Arial;
+	font-size:19px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:#e0847e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+input{
+    border:2px solid #ffffff;
+    font-family:Arial;
+    border-width: 20px;
+    border-radius: 30px;
+    
+}
+.header{
+    position: absolute;
+    top: 160px;
+    left: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.btnfix{
+    display: flex;
+    gap: 40px;
+}
+.arrow{
+    display: flex;
+    gap: 25px;
+    height: 20px;
+    align-items: center;
+}
+.morenews{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    border-bottom: solid #111111 ;
+    border-width: 1px;
+    width: 350px;
+    
+
+}
+.h1morenews{
+font-size: 30px;
+padding-bottom: 10px;
+}
+.travelnewstext{
+    width: 350px;
+}
+.h2orange{
+    color: #fa783c;
+}
+.morenewsfix{
+    position: absolute;
+    top: 150px;
+    right: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f8eded;
+    padding: 30px;
+}
+.card{
+    width: 381px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.textfix{
+    padding-left: 20px;
+    width: 300px;
+}
+.cardfix{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.discovery{
+    padding: 30px 0px 30px 73px;
+    
+}
+.blackdiv{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1c1c;
+}
+.vector2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.vectortext{
+    color: #f8eded;
+}
+.rectanglecrop{
+    display: none;
+}
+.logotext{
+    color: #fa783c;
+}
+@media only screen and (max-width: 375px) {
+    .links{
+        display:none ;
+    }
+    .personcircle{
+        transform: translate(35px);
+    }
+    .logofix{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        
+        height: 50px;
+    }
+    .rectangle{
+        
+        display: none;
+        
+    }
+    .rectanglecrop {
+        display: inline-block;
+    }
+    .morenewsfix{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #ffffff;
+        padding: 15px;
+}
+.header {
+    position: absolute;
+    top: 80px;
+    left: 12px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.h1header {
+    font-size: 40px;
+    color: #f8eded;
+}
+.headertext {
+    width: 350px;
+    color: #f8eded;
+}
+.h1header2 {
+    font-size: 25px;
+    color: #f8eded;
+}
+.btnfix {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+input {
+    border: 2px solid #ffffff;
+    font-family: Arial;
+    border-width: 40px;
+    border-radius: 60px;
+}
+.btnfix {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.discovery {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+} 
+.cardfix {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.card {
+    width: 375px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.logofix {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-11px);
+}
+
+
+.dropdown {
+    display: inline-block;
+    padding-left: 20px;
+}
+}
